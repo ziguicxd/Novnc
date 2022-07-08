@@ -39,48 +39,49 @@ export class Localizer {
                 .toLowerCase()
                 .replace("_", "-")
                 .split("-");
-
+/*
             // Built-in default?
-//             if ((userLang[0] === 'en') &&
-//                 ((userLang[1] === undefined) || (userLang[1] === 'us'))) {
-//                 return;
-//             }
+            if ((userLang[0] === 'en') &&
+                ((userLang[1] === undefined) || (userLang[1] === 'us'))) {
+                return;
+            }
 
-//             // First pass: perfect match
-//             for (let j = 0; j < supportedLanguages.length; j++) {
-//                 const supLang = supportedLanguages[j]
-//                     .toLowerCase()
-//                     .replace("_", "-")
-//                     .split("-");
+            // First pass: perfect match
+            for (let j = 0; j < supportedLanguages.length; j++) {
+                const supLang = supportedLanguages[j]
+                    .toLowerCase()
+                    .replace("_", "-")
+                    .split("-");
 
-//                 if (userLang[0] !== supLang[0]) {
-//                     continue;
-//                 }
-//                 if (userLang[1] !== supLang[1]) {
-//                     continue;
-//                 }
+                if (userLang[0] !== supLang[0]) {
+                    continue;
+                }
+                if (userLang[1] !== supLang[1]) {
+                    continue;
+                }
 
-//                 this.language = supportedLanguages[j];
-//                 return;
-//             }
+                this.language = supportedLanguages[j];
+                return;
+            }
 
-//             // Second pass: fallback
-//             for (let j = 0;j < supportedLanguages.length;j++) {
-//                 const supLang = supportedLanguages[j]
-//                     .toLowerCase()
-//                     .replace("_", "-")
-//                     .split("-");
+            // Second pass: fallback
+            for (let j = 0;j < supportedLanguages.length;j++) {
+                const supLang = supportedLanguages[j]
+                    .toLowerCase()
+                    .replace("_", "-")
+                    .split("-");
 
-//                 if (userLang[0] !== supLang[0]) {
-//                     continue;
-//                 }
-//                 if (supLang[1] !== undefined) {
-//                     continue;
-//                 }
+                if (userLang[0] !== supLang[0]) {
+                    continue;
+                }
+                if (supLang[1] !== undefined) {
+                    continue;
+                }
 
-//                 this.language = supportedLanguages[j];
-//                 return;
-//             }
+                this.language = supportedLanguages[j];
+                return;
+            }
+*/
         }
     }
 
