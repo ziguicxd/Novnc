@@ -81,8 +81,8 @@ export class Localizer {
 //                 this.language = supportedLanguages[j];
 //                 return;
 //             }
-//         }
-//     }
+        }
+    }
 
     // Retrieve localised text
     get(id) {
